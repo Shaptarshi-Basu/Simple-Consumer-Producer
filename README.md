@@ -23,7 +23,7 @@ Run command - docker build -t NAME:TAG .
 #### Use appropriate naming and tagging
 Run command - 
   1. docker-compose up -d 
-  2. docker run NAME:TAG
+  2. docker run --network=host NAME:TAG
   
   
 
