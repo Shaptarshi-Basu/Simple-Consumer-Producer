@@ -15,6 +15,9 @@ Topic to produced
 ## Run Integration test
 Run command - make integration-test
 
+Prerequisite: needs go version 1.17
+and run go mod download to fetch dependant libraries
+
 ## Build Docker image
 #### Use appropriate naming and tagging
 Run command - docker build -t NAME:TAG .
